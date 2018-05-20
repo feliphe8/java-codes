@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Feliphe</first_name>
+	<last_name>Simoes</last_name>
+	<phone_number>15456</phone_number>
+	<notes>Editado</notes>
+</contact>
+<contact>
+	<first_name>Irelia</first_name>
+	<last_name>Top</last_name>
+	<phone_number>123456</phone_number>
+	<notes>Lane</notes>
+</contact>
+<contact>
+	<first_name>Shauna</first_name>
+	<last_name>Vayne</last_name>
+	<phone_number>987456</phone_number>
+	<notes>ADC</notes>
+</contact>
+</contacts>
