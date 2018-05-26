@@ -24,7 +24,7 @@
       <file leaf-file-name="Locations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1659">
+            <state relative-caret-position="1638">
               <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,14 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="483">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareRoot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/SquareRoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/com/example/feliphe/Main.java" />
         <option value="$PROJECT_DIR$/src/com/example/feliphe/Locations.java" />
         <option value="$PROJECT_DIR$/src/com/example/feliphe/Teste.java" />
+        <option value="$PROJECT_DIR$/src/com/example/feliphe/SquareRoot.java" />
       </list>
     </option>
   </component>
@@ -84,6 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,9 +118,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Teste">
+  <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="Locations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.feliphe.Locations" />
       <module name="InputOutput" />
@@ -164,6 +174,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.feliphe.SquareRoot" />
+      <module name="InputOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.feliphe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.feliphe.Teste" />
       <module name="InputOutput" />
@@ -179,9 +199,11 @@
       <item itemvalue="Application.Locations" />
       <item itemvalue="Application.ShiftInt" />
       <item itemvalue="Application.Teste" />
+      <item itemvalue="Application.SquareRoot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Locations" />
@@ -208,13 +230,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.2678002" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.2678002" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -223,21 +246,54 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -348,7 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
+        <state relative-caret-position="1638">
           <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -360,10 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="2352" column="20" selection-start-line="2352" selection-start-column="20" selection-end-line="2352" selection-end-column="20" />
-          <folding>
-            <element signature="e#94126#94127#0" expanded="true" />
-            <element signature="e#94164#94165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,11 +428,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="483">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/feliphe/SquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
