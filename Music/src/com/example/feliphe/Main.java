@@ -49,21 +49,23 @@ public class Main {
 
         datasource.createViewForSongArtists();
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter song title: ");
-        String title = scanner.nextLine();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter song title: ");
+//        String title = scanner.nextLine();
+//
+//
+//        songArtists = datasource.querySongInfoView(title);
+//        if (songArtists.isEmpty()){
+//            System.out.println("Coldn't find the artist for the song");
+//        }
+//
+//        for (SongArtist artist: songArtists){
+//            System.out.println("From View - Artist name: " + artist.getArtistName() + " | Album name: " + artist.getAlbumName() +
+//            " | Track: " + artist.getTrack());
+//        }
 
 
-        songArtists = datasource.querySongInfoView(title);
-        if (songArtists.isEmpty()){
-            System.out.println("Coldn't find the artist for the song");
-        }
-
-        for (SongArtist artist: songArtists){
-            System.out.println("From View - Artist name: " + artist.getArtistName() + " | Album name: " + artist.getAlbumName() +
-            " | Track: " + artist.getTrack());
-        }
-
+        datasource.insertSong("Gone", "Knuckle Puck", "Shapeshifter", 4);
 
         datasource.close();
     }
